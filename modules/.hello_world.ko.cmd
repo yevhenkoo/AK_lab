@@ -1,0 +1,1 @@
+cmd_/home/yevhenko/repos/modules/hello_world.ko := arm-linux-gnueabihf-ld -r -EL -z noexecstack --no-warn-rwx-segments -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/yevhenko/repos/modules/hello_world.ko /home/yevhenko/repos/modules/hello_world.o /home/yevhenko/repos/modules/hello_world.mod.o ;  true
