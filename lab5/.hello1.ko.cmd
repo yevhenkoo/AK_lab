@@ -1,0 +1,1 @@
+cmd_/home/yevhenko/repos/lab5/hello1.ko := arm-linux-gnueabihf-ld -r -EL -z noexecstack --no-warn-rwx-segments -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/yevhenko/repos/lab5/hello1.ko /home/yevhenko/repos/lab5/hello1.o /home/yevhenko/repos/lab5/hello1.mod.o ;  true
